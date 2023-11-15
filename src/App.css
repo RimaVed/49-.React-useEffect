@@ -1,0 +1,16 @@
+#allDishes > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .dish{
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+  }
+  .dish > img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }

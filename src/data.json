@@ -1,0 +1,39 @@
+{
+  "patiekalas": [
+    {
+      "id": 1,
+      "title": "Squid",
+      "image": "https://www.themediterraneandish.com/wp-content/uploads/2021/02/fried-calamari-recipe-7.jpg",
+      "description": "Squid is eaten in many cuisines; in English, the culinary name calamari is often used for squid dishes. There are many ways to prepare and cook squid. Fried squid is common in the Mediterranean. In New Zealand, Australia, the United States, Canada, and South Africa, it is sold in fish and chip shops, and steakhouses.",
+      "tasted": true
+    },
+    {
+      "id": 2,
+      "title": "Mochi",
+      "image": "https://sugoimart.com/cdn/shop/articles/Mochi-dessert-1024x562_1200x.jpg",
+      "description": "Mochi, is a Japanese rice cake made of mochigome, a short-grain japonica glutinous rice, and sometimes other ingredients such as water, sugar, and cornstarch. The steamed rice is pounded into paste and molded into the desired shape. In Japan, it is traditionally made in a ceremony called mochitsuki.",
+      "tasted": true
+    },
+    {
+      "id": 3,
+      "title": "Cepelinai",
+      "image": "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2022/03/cepelinai-1200x675.jpg",
+      "description": "Cepelinai or didžkukuliai are potato dumplings made from grated and riced potatoes and stuffed with ground meat, dry curd cheese or mushrooms. It has been described as a national dish of Lithuania, and is typically served as a main dish.",
+      "tasted": false
+    },
+    {
+      "id": 4,
+      "title": "Tartaras",
+      "image": "https://jp.lt/wp-content/uploads/2022/02/Jautienostartaras.jpg",
+      "description": "Jautienos tartaras – iš termiškai neapdorotos jautienos gaminamas delikatesas, kurio skonių paletė atima žadą didžiausiems mėsos mylėtojams. Nors dalis žmonių nedrįsta paragauti šio gurmaniško patiekalo, neabejojame, kad tinkamai paruoštas tartaras nustebins kiekvieną.",
+      "tasted": true
+    },
+    {
+      "title": "Kibinai",
+      "image": "https://www.lamaistas.lt/uploads/modules/recipes/thumb920x573/16983.jpg",
+      "description": "Kibinas - mielinės tešlos pyragėlis su pjaustytos avienos ar jautienos įdaru - valgomas gurkšnojant karštą natūralų sultinį, arbatą ar duonos girą. ",
+      "tasted": false,
+      "id": "f2e9b785-1c97-46f3-9712-c823e3d34be0"
+    }
+  ]
+}
