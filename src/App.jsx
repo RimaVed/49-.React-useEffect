@@ -71,8 +71,8 @@ const [formInputs, setFormInputs]=useState({
     bendrasKiekis ={data.length}
     ragautuKiekis={data.filter(el=>el.tasted).length}
     neragautuKiekis={data.filter(el=>!el.tasted).length}
-    // ragautuKiekis={data.filter(el=>patiekalas.tasted).length}
-    // neragautuKiekis={data.filter(el=>!patiekalas.tasted).length}
+    // ragautuKiekis={data.filter(patiekalas=>patiekalas.tasted).length}
+    // neragautuKiekis={data.filter(patiekalas=>!patiekalas.tasted).length}
     />
 
 

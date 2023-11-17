@@ -16,13 +16,17 @@ const formSubmit = (e)=>{
      });
     } 
 
-     const inputHandler = e =>{
+    const inputHandler = (e) => {
         setFormInputs({
-            ...formInputs,
-            [e.target.name]:e.target.value.type === 'checkbox'||e.target.type === 'radio'?e.target.checked:
-            e.target.type ==='number'?e.target.valueAsNumber:e.target.value
+          ...formInputs,
+          [e.target.name]:
+            e.target.type === 'checkbox' || e.target.type === 'radio'
+              ? e.target.checked
+              : e.target.type === 'number'
+              ? e.target.valueAsNumber
+              : e.target.value,
         });
-     
+    
 
 }
 
