@@ -1,4 +1,5 @@
 import {v4 as uuid} from 'uuid'
+
 const AddNewDish = ({formInputs,setFormInputs,pridetiNaujaPatiekala}) => {
 // funkcionalumas
 const formSubmit = (e)=>{
@@ -77,7 +78,7 @@ const formSubmit = (e)=>{
         id="tastad"
         checked={formInputs.tasted}
         onChange={(e)=>{
-            // setFormInputs({...formInputs,tasted:e.target.chaked})
+            // setFormInputs({...formInputs,tasted:e.target.checked})
             inputHandler(e);
 
         }} 
